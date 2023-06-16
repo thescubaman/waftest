@@ -4,7 +4,6 @@ payload:
   - "\r\nQUIT\r\n"
   - "\nRCPT TO: test@evil.com\n"
 encoder:
-  - Base64Flat
   - URL
 placeholder:
   - URLPath
