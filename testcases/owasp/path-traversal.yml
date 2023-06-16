@@ -12,7 +12,6 @@ payload:
   - 'file:////////////////////////c|\windows\win.ini'
   - 'php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd'
 encoder:
-  - Base64Flat
   - URL
 placeholder:
   - URLPath
